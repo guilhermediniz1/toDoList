@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TODOLIST PIKA</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div>
-        <input id="iptConteudo" type="text" name="conteudo">
-        <button id="btnEnviar">Ok</button>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>To-Do List</h1>
+    <div class="container">
+      <input
+        id="iptConteudo"
+        type="text"
+        name="conteudo"
+        placeholder="Insira o conteúdo"
+      />
+      <button id="btnEnviar">Ok</button>
     </div>
     <div>
-        <p>To-Do</p>
-        <ul id="listaItens"></ul>
+      <ul id="listaItens"></ul>
     </div>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

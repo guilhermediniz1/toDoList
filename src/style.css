@@ -1,5 +1,67 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #8ecae6;
+  text-align: center;
+}
+h1 {
+  margin: 215px auto 66px auto;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 72px;
+}
+.container {
+  margin: auto;
+  height: 48px;
+  max-width: 420px;
+  display: inline-flex;
+  margin-bottom: 16px;
+}
+.container input {
+  margin-right: 16px;
+  height: 48px;
+  width: 348px;
+  border-radius: 8px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #023047;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 16px;
+  border-color: white;
+  border-style: none;
+  box-shadow: 2px 6px 4px rgb(0, 0, 0, 0.4);
+}
+
+.container button {
+  height: 48px;
+  width: 56px;
+  border-radius: 8px;
+  border-color: #fb8500;
+  background-color: #fb8500;
+  border-style: none;
+  color: white;
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 700;
+  box-shadow: 2px 6px 4px rgb(0, 0, 0, 0.25);
+  text-align: center;
+}
+.item-lista {
+  width: 420px;
+  height: 77px;
+  background-color: white;
+  display: flex;
+  border-radius: 8px;
+  margin: 16px auto 0 auto;
+  box-shadow: 3px 2px 0px #023047;
+  padding-left: 16px;
+  padding-top: 22px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #023047;
+  font-size: 24px;
+  font-weight: 700;
 }
