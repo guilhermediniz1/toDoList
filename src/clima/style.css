@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  background-color: #d19d9d9f;
+}
+h1 {
+  padding: 0 0 1em 0;
+  font-size: 3em;
+}
+.container-principal {
+  background-color: #f78833e8; /*#f78833e8*/
+  opacity: 0.9;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  font-weight: 700;
+  margin: 10rem 1rem;
+}
+.box-pesquisa {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0 0 1.5rem 0;
+  font-size: 1em;
+}
+.input-cidade {
+  border: none;
+  outline: none;
+  padding: 1rem;
+  width: 80%;
+  max-width: calc(100%-4.3rem);
+  font-size: 1em;
+  background-color: rgba(247, 245, 245, 0.767);
+  border-radius: 1.3rem;
+  color: black;
+}
+.botao-pesquisar {
+  border: none;
+  outline: none;
+  background-color: rgba(247, 245, 245, 0.767);
+  cursor: pointer;
+  border-radius: 1rem;
+  padding: 0.5rem 0.8rem;
+}
+.img-lupa {
+  width: 2rem;
+}
+.box-clima {
+  display: inline-flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+.text-clima {
+  text-transform: capitalize;
+}
+header {
+  display: flex;
+
+  justify-content: center;
+  background-color: #8ecae6;
+  padding: 0 6.5rem;
+  border-radius: 1.5rem;
+  margin: 1rem auto 0 auto;
+}
+.todolist-icon {
+  width: 6rem;
+  padding: 0.5rem 1.5rem;
+}

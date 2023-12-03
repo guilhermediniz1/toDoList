@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8ecae6;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  max-width: 30rem;
+  margin: 10rem auto 0 auto;
+  padding: 1.5rem 1rem 3rem;
+  background-color: #2993c47c;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.25);
+}
+
+h1 {
+  color: white;
+  font-size: 4.5em;
+}
+
+.container {
+  width: 100%;
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.container input {
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
+  color: #023047;
+  font-family: inherit;
+  border: none;
+  box-shadow: 0 8px 16px rgb(0, 0, 0, 0.25);
+}
+
+.container button {
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: #fb8500;
+  border: none;
+  color: white;
+  box-shadow: 0 8px 16px rgb(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.container button:hover {
+  background: #ffdacb;
+  color: #fa9623;
+  box-shadow: inset 0 0 0 3px #fb8500;
+  transition-duration: 100ms;
+}
+
+.msg {
+  color: #023047;
+  font-style: italic;
+  opacity: 0.5;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  overflow: auto;
+  cursor: pointer;
+}
+ul :hover {
+  background: #f5bba4;
+  transition-duration: 200ms;
+}
+
+.item-lista {
+  background-color: white;
+  display: flex;
+  border-radius: 8px;
+  padding: 1.5rem 1rem;
+  color: #023047;
+  font-size: 1rem;
+  font-weight: 400;
+}
+header {
+  display: inline-flex;
+  justify-content: center;
+  background-color: #f5bba4;
+  padding: 0 6.5rem;
+  border-radius: 1.5rem;
+  margin: 1rem auto 0 auto;
+}
+.tempo-icon {
+  width: 6rem;
+  padding: 0.5rem 1.5rem;
+}

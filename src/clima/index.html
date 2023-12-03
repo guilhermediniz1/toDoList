@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Climate</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/237/237867.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="todolist" href="/src/todolist/index.html"
+        ><img
+          class="todolist-icon"
+          src="https://cdn-icons-png.flaticon.com/512/3176/3176366.png"
+          alt="todolist-icone"
+      /></a>
+    </header>
+    <div class="container-principal">
+      <h1>Climate in the City</h1>
+      <div class="box-pesquisa">
+        <input
+          class="input-cidade"
+          type="text"
+          placeholder="Digite o nome da cidade"
+        />
+        <button class="botao-pesquisar">
+          <img
+            class="img-lupa"
+            src="https://www.svgrepo.com/show/488200/find.svg"
+            alt="lupa"
+            onclick="clicarPesquisar()"
+          />
+        </button>
+      </div>
+      <h2 class="text-cidade">Tempo em cidade</h2>
+      <p class="text-temperatura">temperatura</p>
+      <div class="box-clima">
+        <img
+          class="img-clima"
+          src="https://openweathermap.org/img/wn/04n.png"
+          alt="img-clima"
+        />
+        <p class="text-clima">clima</p>
+      </div>
+      <p class="text-umidade">umidade</p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
